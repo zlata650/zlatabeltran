@@ -375,6 +375,37 @@ section:nth-child(even)::before {
     margin-bottom: 0;
 }
 
+/* Artist Statement Section */
+.statement-section {
+    padding: 6rem 0;
+}
+
+.artist-statement {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+}
+
+.artist-statement p {
+    font-family: var(--font-headline);
+    font-size: 1.25rem;
+    line-height: 1.9;
+    color: var(--charcoal);
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.artist-statement cite {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    font-style: normal;
+    color: var(--burgundy);
+    font-weight: 500;
+}
+
 /* Repertoire Section */
 .repertoire {
     padding: 8rem 0;
@@ -680,6 +711,14 @@ section:nth-child(even)::before {
 /* Contact Section */
 .contact {
     padding: 8rem 0;
+}
+
+.press-contact-intro {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--charcoal);
+    margin-bottom: 1.5rem;
+    font-weight: 400;
 }
 
 .contact-content {
