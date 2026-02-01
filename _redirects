@@ -1,0 +1,12 @@
+# Netlify redirects file
+# This file handles redirects and ensures proper routing
+
+# Redirect www to non-www (or vice versa if preferred)
+# Uncomment the line below if you want www to redirect to non-www
+# www.zlatabeltran.com/*  https://zlatabeltran.com/:splat  301!
+
+# Handle SPA routing - redirect all routes to index.html
+/*    /index.html   200
+
+
+
